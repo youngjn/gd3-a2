@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Data Story - June Jung</title>
+
+</head>
+<body>
+	<nav class="top-nav">
+		<p class="site-title">GD3</p>
+		<p class="love-meat">GRPH-3017</p>
+	</nav>
+	<header>
+		<div class="quote-container">
+			<h1 class="intro-quote">I have known many meat eaters to be far more nonviolent than vegetarians.</h1>
+			<p class="quote-from">Mahatma Gandhi</p>
+		</div>
+	</header>
+	<main>
+		<div class="main-content">
+			<h1 class="title">More We Eat Meat</h1>
+			<h2 class="author">by June Jung in OCADU Graphic Design.</h2>
+			<h3 class="date">Oct 7, 2021</h3>
+
+			<p>Generally speaking, meat is the most consumed ingredient for different kinds of cuisine and different types of foods. All countries have their different types of meat cuisine, or their own way to cut, raise, or even grill. Unlike special types of fruits or other food ingredients, meat has always been one of the main ingredients in human history. Since human beings learned hunting, meat also has been the easiest ingredient to access and the ingredient that we consumed the most. And the fact remains the same now here in the 21st century as well. We can see how people think and treat meat by looking at the chart of the global meat production.</p>
+		</div>
+		<div class="chart-container firstChart">
+			<h3 class="firstChart-title">Global Meat Production from <span class="red">1998</span> to <span class="red">2018</span></h3>
+			<p><img src="images/cow_ver2.png" alt="cow_icon"><span class="number">350</span> million <span class="cows">COWS</span></p>
+			<div class="yearbox">
+				<button type="button" class="firstYear" onclick="twoth()">1998</button><button type="button" class="secondYear" onclick="twothtwo()">2003</button><button type="button" class="thirdYear" onclick="twothfour()">2008</button><button type="button" class="fourthYear" onclick="twothsix()">2013</button><button type="button" class="fifthYear" onclick="twotheight()">2018</button>
+			</div>
+			<p class="help">Click years to figure out how many cows were produced each year!</p>
+			
+		</div>
+		<div class="main-content">
+			<p>In this chart, the global meat production has been increasing gradually <span class="red">from 1998 to 2018.</span> The amount of meat produced around the world, has increased <span class="red">150%</span> in last 20 years as you can see. People want and crave meat more and more. For me, if someone asks me what my favourite cuisine is, I can not answer since there are so many. However, in terms of ingredients, not the cuisine, I would definitely say meat. Just like me, it’s really hard to find who does not love meat. Especially, in South Korea - where my home country - people there eat meat like crazy. They eat almost all parts of the pork, chicken and beef. Even the skin of the pig becomes the food in Korea. Also Koreans have a really big pride about ‘Korean Beef’, and ‘Korean Pork’ which are called ‘Hanu’, and ‘Handon’. As a result, meat production in Korea inevitably increased every year as well.
+			</p>
+		</div>
+		<div class="chart-container">
+			<canvas id="secondChart"></canvas>
+		</div>
+		<div class="main-content">
+			<p>The biggest issue with consuming so much meat every year is GreenHouse Gas emissions which is also known as GHG. GreenHouse Gases trap heat from escaping so that the heat comes back naturally and it warms the planet again and again. So if GreenHouse Gas emissions increase, it means the temperature of the earth can increase too, and we all know that if the temperature goes up, that is not a good sign. Because of the increase of GHG emissions, last 200 years, the temperature of the planet has increased by 1.0 Celsius. The main gases responsible for the greenhouse effect include <span class="red">carbon dioxide</span>, <span class="red">methane</span>, <span class="red">nitrous oxide</span>, and water vapor (which all occur naturally), and <span class="red">fluorinated gases</span> (which are synthetic).
+			</p>
+		</div>
+		<h3 class="thirdChart-title">Global Manmade GreenHouse Gas Emissions %</h3>
+		<div class="chart-container" id="pieChart">
+		</div>
+		<div class="main-content">
+			<p>TLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</div>
+
+
+		<h3 class="fourthChart-title">GreenHouse gas emissions per kg of meat product</h3>
+
+		<div class="chart-container" id="gaugeChart"></div>
+	</main>
+	<footer>
+		<div class="metadata-container"></div>
+
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"></script>
+		<script
+		  src="https://code.jquery.com/jquery-3.6.0.min.js"
+		  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		  crossorigin="anonymous"></script>
+		  <script type="text/javascript" src="e-chart.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.5.1/chart.min.js"></script>
+		<script type="text/javascript" src="script.js"></script>
+	</footer>
+</body>
+</html>

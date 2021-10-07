@@ -1,0 +1,207 @@
+*,
+*:before,
+*:after {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+}
+
+body, html {
+	height:  100%;
+	background:  #212121;
+}
+
+/*navigation*/
+
+.top-nav {
+	width:  100%;
+	position:  fixed;
+	padding:  15px 20px;
+	display: flex;
+	justify-content: space-between;
+	color:  white;
+	font-size:  20px;
+	font-family:  'DM Serif Display', serif;
+}
+
+/*intro header*/
+
+header {
+	padding:  275px 0 0 0;
+	height:  100vh;
+	background:  linear-gradient(
+      rgba(0, 0, 0, 0.45), 
+      rgba(0, 0, 0, 0.45)
+    ) center no-repeat, url("images/meat_background.jpg") no-repeat;
+	background-position:  center;
+	background-size:  cover;
+}
+
+.quote-container {
+	width:  60%;
+	margin:  0 auto;
+	color:  white;
+}
+
+.intro-quote {
+	margin-bottom:  60px;
+	font-size:  64px;
+	font-family:  'DM Serif Display', serif;
+	font-style:  italic;
+}
+
+.quote-from {
+	font-size:  32px;
+	font-family:  'DM Serif Display', serif;
+
+}
+
+
+/*main content*/
+
+main {
+	padding:  200px 0 250px 0;
+	background:  #212121;
+	position:  relative;
+}
+
+.main-content {
+	width:  40%;
+	margin:  0  auto;
+	color:  #ededed
+}
+
+.title {
+	margin-bottom:  10px;
+	font-size:  60px;
+	font-family:  'DM Serif Display', serif;
+	letter-spacing: 1px;
+}
+
+.author, .date {
+	margin-bottom:  5px;
+	font-size:  18px;
+}
+
+.main-content p {
+	margin-top:  35px;
+	margin-bottom:  240px;
+	font-size:  25px;
+	line-height:  1.5;
+}
+
+.main-content p,
+.main-content h2,
+.main-content h3{
+	font-family:  'Cormorant Garamond', serif;
+}
+
+
+
+/*graph*/
+
+
+.chart-container {
+	width:  80%;
+	margin:  0 auto 250px auto;
+}
+
+.firstChart-title {
+	color:  white;
+	font-size:  24px;
+	margin-bottom:  25px;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
+.red {
+	color:  #bf3026;
+}
+
+.yearbox {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.firstChart button {
+	display: inline-block;
+	width:  10%;
+	text-align: center;
+	text-decoration: none;
+	color:  white;
+	font-family:  'DM Serif Display', serif;
+	font-size:  20px;
+	padding:  10px;
+	background:  none;
+	border: none;
+	cursor:  pointer;
+}
+
+.firstChart img {
+	width:  110px;
+	margin-right:  15px;
+}
+
+.chart-container p {
+	margin-bottom:  30px;
+	color:  white;
+	text-align: center;
+	font-size:  108px;
+	font-family:  'DM Serif Display', serif;
+	font-style:  italic;
+}
+
+.chart-container .help {
+	text-align: center;
+	font-size:  18px;
+	font-family:  'Cormorant Garamond', serif;
+	color:  white;
+	font-style: normal;
+	margin-top:  10px;
+}
+
+.firstChart .firstYear {
+	color:  #ffc3bf;
+}
+
+.firstChart .secondYear {
+	color:  #f09690;
+}
+
+.firstChart .thirdYear {
+	color:  #e06d65;
+}
+
+.firstChart .fourthYear {
+	color:  #d45148;
+}
+
+.firstChart .fifthYear {
+	color:  #bf3026;
+}
+
+#pieChart {
+	height:  600px;
+}
+
+.thirdChart-title {
+	color:  white;
+	font-size:  24px;
+	margin-bottom:  25px;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
+#gaugeChart {
+	height:  600px;
+}
+
+.fourthChart-title {
+	color:  white;
+	font-size:  24px;
+	margin-bottom:  25px;
+	text-align:  center;
+	font-family: 'DM Serif Display', serif;
+}
+
